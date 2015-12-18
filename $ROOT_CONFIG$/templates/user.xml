@@ -1,0 +1,57 @@
+<templateSet group="user">
+  <template name="if name" value="if __name__ == '__main__':&#10;    pass" shortcut="SPACE" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="Python" value="true" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="class A" value="class Controller:&#10;    def __init__(self):&#10;        &quot;&quot;&quot;&#10;        &#10;        &quot;&quot;&quot;&#10;        pass" shortcut="SPACE" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="Python" value="true" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="def f" value="def func(self):&#10;    pass" shortcut="SPACE" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="Python" value="true" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="with" value="with open(&quot;file&quot;, &quot;r&quot;) as f:&#10;    pass" shortcut="SPACE" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
+  <template name="class Widget" value="class MyWindow(QtGui.QWidget):&#10;    def __init__(self, parent=None):&#10;        QtGui.QWidget.__init__(self, parent)&#10;        self.resize(300, 140)&#10;        self.label = QtGui.QLabel()&#10;&#10;        hbox = QtGui.QHBoxLayout()&#10;        hbox.addWidget(self.label)&#10;        self.setLayout(hbox)" shortcut="SPACE" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
+  <template name="if gui" value="if __name__ == '__main__':&#10;    app = QtGui.QApplication(sys.argv)&#10;    # app.setStyleSheet(open('settings/style.qss', &quot;r&quot;).read())&#10;    main = MyWindow()&#10;    main.show()&#10;    sys.exit(app.exec_())" shortcut="SPACE" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
+  <template name="from Py" value="import sys&#10;from PyQt4 import QtGui, QtCore" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
+  <template name="walk" value="for root, dirs, files in os.walk(&#10;    dir):  # пройти по директории рекурсивно&#10;    for name in files:&#10;        fullname = os.path.join(root,&#10;                                name)  # получаем полное имя файла&#10;        print&#10;        os.path.getctime(fullname)  # делаем что-нибудь с ним" description="рекурсивный обход директорий" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
+</templateSet>

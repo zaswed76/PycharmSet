@@ -1,0 +1,7 @@
+<templateSet group="PyQt">
+  <template name="class Widget" value="class Widget(QtGui.QWidget):&#10;    def __init__(self):&#10;        super().__init__()&#10;        self.resize(500, 500)&#10;        self.box = QtGui.QVBoxLayout(self)&#10;        self.box.setMargin(0)&#10;        self.box.setSpacing(0)&#10;&#10;&#10;if __name__ == '__main__':&#10;    app = QtGui.QApplication(sys.argv)&#10;    # app.setStyleSheet(open('./etc/{0}.qss'.format('style'), &quot;r&quot;).read())&#10;    main = Widget()&#10;    main.show()&#10;    sys.exit(app.exec_())" description="create class inherits from QtGui.QWidget" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
+</templateSet>
