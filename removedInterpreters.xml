@@ -1,0 +1,23 @@
+<application>
+  <component name="PySdkService">
+    <option name="REMOVED_SDKS">
+      <set>
+        <option value="/Library/Frameworks/Python.framework/Versions/2.7/bin/python2.7" />
+        <option value="/System/Library/Frameworks/Python.framework/Versions/2.5/bin/python2.5" />
+        <option value="/System/Library/Frameworks/Python.framework/Versions/2.6/bin/python2.6" />
+        <option value="/System/Library/Frameworks/Python.framework/Versions/2.7/bin/python2.7" />
+        <option value="/opt/local/Library/Frameworks/Python.framework/Versions/2.7/Python" />
+        <option value="/opt/local/Library/Frameworks/Python.framework/Versions/2.7/Resources/Python.app/Contents/MacOS/Python" />
+        <option value="/usr/bin/python" />
+        <option value="/usr/bin/pythonw2.7" />
+        <option value="/usr/local/bin/python2.7" />
+        <option value="$USER_HOME$/.python2.7_env/bin/python" />
+        <option value="$USER_HOME$/project/seabattle/env/bin/python" />
+        <option value="$USER_HOME$/untitled/bin/python" />
+        <option value="$USER_HOME$/untitled1/bin/python" />
+        <option value="$USER_HOME$/untitled2/bin/python" />
+        <option value="F:/Portable Python 2.7.6.1/App/python.exe" />
+      </set>
+    </option>
+  </component>
+</application>
