@@ -1,0 +1,19 @@
+<application>
+  <component name="FileTypeManager" version="16">
+    <ignoreFiles list="*$py.class;*.hprof;*.orig;*.pyc;*.pyo;*.rbc;*~;.DS_Store;.git;.hg;.svn;CVS;RCS;SCCS;__pycache__;_svn;rcs;" />
+    <extensionMap>
+      <mapping ext="shlv" type="ARCHIVE" />
+      <mapping pattern="readme" type="PLAIN_TEXT" />
+      <mapping pattern="wef" type="PLAIN_TEXT" />
+      <mapping pattern="q2e" type="PLAIN_TEXT" />
+      <mapping pattern="edrgf" type="PLAIN_TEXT" />
+      <mapping pattern="2" type="PLAIN_TEXT" />
+      <mapping pattern="1" type="PLAIN_TEXT" />
+      <mapping ext="chem" type="PLAIN_TEXT" />
+      <mapping ext="qss" type="PLAIN_TEXT" />
+      <mapping pattern="glow" type="Python" />
+      <mapping ext="java" type="ReST" />
+      <mapping ext="dia" type="UML" />
+    </extensionMap>
+  </component>
+</application>
